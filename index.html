@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html class="no-js  page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Leroy Merlin</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png"> -->
+  <!-- <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png"> -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link href="css/style.min.css" rel="stylesheet" media="screen">
+
+  <script>
+    // Маркер работающего javascript
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    document.addEventListener('DOMContentLoaded', function(){
+      if (window.isMobile !== undefined) {
+        // console.log(isMobile);
+        if(isMobile.any) {
+          var rootClasses = ' is-mobile';
+          for (key in isMobile) {
+            if(typeof isMobile[key] === 'boolean' && isMobile[key] && key !== 'any') rootClasses += ' is-mobile--'+key;
+            if(typeof isMobile[key] === 'object' && key !== 'other') {
+              for (type in isMobile[key]) {
+                if(isMobile[key][type]) rootClasses += ' is-mobile--'+key+'-'+type;
+              }
+            }
+          }
+          document.documentElement.className += rootClasses;
+        }
+      }
+      else {
+        console.log('Классы для мобильных не добавлены: в сборке отсутствует isMobile.js');
+      }
+    });
+
+  </script>
+  <!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script> -->
+
+</head>
+
+<body>
+
+  <div class="page__inner">
+
+    <div class="page__content">
+
+      <header class="page-header" role="banner" style="background-image: url('img/header-bg.jpg');">
+        <div class="page-header__inner">
+          <div class="event-card">
+            <h1 class="event-card__title">Ярмарка Шансов</h1>
+            <div class="event-card__info">
+              <p>Ежегодный форум поставщиков <span>Леруа Мерлен</span></p>
+              <p>Реальный шанс работать с <span>Леруа Мерлен</span> в новом году!</p>
+            </div>
+            <div class="event-card__action">
+              <button class="btn btn--yellow">Стать участником</button>
+              <span>31 октября - 1 ноября 2018 «Экспоцентр»</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+      <main role="main">
+
+        <section class="section section--about">
+          <div class="section__inner narrow">
+            <div class="media-card">
+              <div class="media-card__info">
+                <h2>О мероприятии</h2>
+                <p><b>«Ярмарка Шансов»</b> - это уникальная возможность презентовать Вашу Компанию и представить Ваши лучшие товары-новинки непосредственно сотрудникам отдела закупок «Леруа Мерлен»! </p>
+                <p><b>«Ярмарка Шансов»</b> - это победитель премии BEMA! в номинации «Лучшее событие года» 2017!</p>
+                <p><b>«Ярмарка Шансов»</b> - это 12 000 кв. м выставочного пространства и 300 стендов для наших настоящих и будущих партнёров!</p>
+                <p><b>«Ярмарка Шансов»</b> - это Ваш шанс расти и развиваться вместе с нами!</p>
+              </div>
+              <div class="media-card__video">
+                <div class="embed-responsive  embed-responsive--16-9">
+                  <iframe src="https://www.youtube.com/embed/HNpLuXOg7xQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="image-content" style="background-image: url('img/person-image.png');">
+              <h2 class="section__title">Участие в «Ярмарке Шансов» даст Вам уникальную возможность:</h2>
+              <ul>
+                <li>презентовать Вашу Компанию и представить Ваши лучшие товары и товары-новинки DIY-рынка отделу Закупок «Леруа Мерлен», сотрудникам магазинов и клиентам;</li>
+                <li>провести персональные переговоры непосредственно с закупщиками «Леруа Мерлен»;</li>
+                <li>принять участие в тендерах 2019 года;</li>
+                <li>победить в голосовании «ТОП-50 лучших товаров» и в ближайшее время увидеть свою продукцию на полках «Леруа Мерлен»;</li>
+                <li>узнать актуальную информацию о планах развития «Леруа Мерлен» в 2019 году.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section section--advantage gray-bg">
+          <div class="section__inner narrow">
+            <h2 class="section__title text-center">5 причин принять участие в выставке</h2>
+            <div class="advantage">
+              <div class="advantage__item">
+                <div class="advantage__image">
+                  <svg width="116" height="115">
+                    <use xlink:href="img/sprite-svg.svg#adv-01"></use>
+                  </svg>
+                </div>
+                <div class="advantage__text">
+                  <p>Стать участником тендеров в 2019 году</p>
+                </div>
+              </div>
+              <div class="advantage__item">
+                <div class="advantage__image">
+                  <svg width="116" height="115">
+                    <use xlink:href="img/sprite-svg.svg#adv-02"></use>
+                  </svg>
+                </div>
+                <div class="advantage__text">
+                  <p>Принять участие в переговорах с сотрудниками отдела Закупок Леруа Мерлен Восток</p>
+                </div>
+              </div>
+              <div class="advantage__item">
+                <div class="advantage__image">
+                  <svg width="116" height="115">
+                    <use xlink:href="img/sprite-svg.svg#adv-03"></use>
+                  </svg>
+                </div>
+                <div class="advantage__text">
+                  <p>Презентовать свою компанию и новинки продукции отделу закупок Леруа Мерлен, сотрудникам магазинов и клиентам</p>
+                </div>
+              </div>
+              <div class="advantage__item">
+                <div class="advantage__image">
+                  <svg width="116" height="115">
+                    <use xlink:href="img/sprite-svg.svg#adv-04"></use>
+                  </svg>
+                </div>
+                <div class="advantage__text">
+                  <p>Узнать о наиболее важных и интересных проектах, а также о планах развития Компании в 2019 году.</p>
+                </div>
+              </div>
+              <div class="advantage__item">
+                <div class="advantage__image">
+                  <svg width="116" height="115">
+                    <use xlink:href="img/sprite-svg.svg#adv-05"></use>
+                  </svg>
+                </div>
+                <div class="advantage__text">
+                  <p>Завести полезные бизнес-знакомства</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section--format">
+          <div class="section__inner narrow">
+            <h2 class="section__title text-center">Формат участия</h2>
+            <div class="format-card">
+              <div class="format-card__part">
+                <div class="format-card__info">
+                  <div class="format-card__info-icon">
+                    <svg width="182" height="196">
+                      <use xlink:href="img/sprite-svg.svg#icon-format"></use>
+                    </svg>
+                  </div>
+                  <div class="format-card__info-caption">
+                    <p>
+                      <span>Выставочный стенд:</span>
+                      Размер 3*3 метра, высота 2,5 метра.
+                    </p>
+                    <p>
+                      <span>Опции пакета:</span>
+                      Брендирование «козырька» стенда, ковролин, электричество, интернет-канал, стол, 2 стула.
+                    </p>
+                    <ul>
+                      <li>Участие в 2-х дневной конференции.</li>
+                      <li>Входной билет для 2-х представителей компании.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="format-card__part">
+                <div class="format-card__scheme">
+                  <img src="img/scheme.jpg" alt="">
+                  <a href="img/scheme.jpg" data-fancybox="images">
+                    <svg width="31" height="31">
+                      <use xlink:href="img/sprite-svg.svg#icon-zoom"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="format-card__part">
+                <div class="format-card__action">
+                  <div class="format-card__action-prise">175 000</div>
+                  <div class="format-card__action-btn"><button class="btn btn--green">Стать участником</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section--request yellow-bg">
+          <div class="section__inner narrow">
+            <h2 class="section__title text-center">Отправить заявку на участие</h2>
+            <div class="request">
+              <form action="" class="form form--request">
+                <div class="form__group">
+                  <label class="field-text">
+                    <span class="field-text__input-wrap">
+                      <input class="field-text__input" type="text" placeholder="Фамилия Имя Отчество" id="" name="">
+                    </span>
+                  </label>
+                  <label class="field-text">
+                    <span class="field-text__input-wrap">
+                      <input class="field-text__input" type="text" placeholder="Название компании" id="" name="">
+                    </span>
+                  </label>
+                  <label class="field-text">
+                    <span class="field-text__input-wrap">
+                      <input class="field-text__input" type="text" placeholder="Email" id="" name="">
+                    </span>
+                  </label>
+                  <label class="field-text">
+                    <span class="field-text__input-wrap">
+                      <input class="field-text__input" type="text" placeholder="Адрес сайта" id="" name="">
+                    </span>
+                  </label>
+                  <label class="field-text">
+                    <span class="field-text__input-wrap">
+                      <input class="field-text__input" type="text" placeholder="Телефон" id="" name="">
+                    </span>
+                  </label>
+                  <label class="field-select">
+                    <div class="field-select__select-wrap">
+                      <select class="field-select__select" id="" name="">
+                        <option>Товарная категория</option>
+                        <option>Значение 1</option>
+                        <option>Значение 2</option>
+                        <option>Значение 3</option>>
+                      </select>
+                    </div>
+                  </label>
+                </div>
+                <div class="form__group">
+                  <label class="field-text">
+                    <span class="field-text__input-wrap">
+                      <textarea class="field-text__input" placeholder="Опишите, почему товар именно вашей компании должен принять участие в выставке?"></textarea>
+                    </span>
+                  </label>
+                  <div class="field-actions">
+                    <div class="field-actions__text">
+                      СОГЛАСЕН НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ, ПОЛУЧЕНИЕ РАССЫЛОК, А ТАКЖЕ С ПОЛИТИКОЙ КОНФИДЕНЦИАЛЬНОСТИ.
+                    </div>
+                    <button class="btn btn--yellow">Отправить</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="section section--review">
+          <div class="section__inner">
+            <h2 class="section__title text-center">Отзывы участников «Ярмарки Шансов» 2017</h2>
+
+            <div class="video-review">
+              <div class="video-review__item">
+                <a data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                  <img src="img/video-placeholder.jpg" alt="">
+                </a>
+              </div>
+              <div class="video-review__item">
+                <a data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                  <img src="img/video-placeholder.jpg" alt="">
+                </a>
+              </div>
+              <div class="video-review__item">
+                <a data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                  <img src="img/video-placeholder.jpg" alt="">
+                </a>
+              </div>
+              <div class="video-review__item">
+                <a data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                  <img src="img/video-placeholder.jpg" alt="">
+                </a>
+              </div>
+              <div class="video-review__item">
+                <a data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                  <img src="img/video-placeholder.jpg" alt="">
+                </a>
+              </div>
+              <div class="video-review__item">
+                <a data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                  <img src="img/video-placeholder.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+    </div>
+
+    <div class="page__footer-wrapper">
+
+      <footer class="page-footer" role="contentinfo">
+        <h2 class="section__title text-center">Контакты</h2>
+        <div id="map">
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeb71ddad19b2b8a00a07488f67e1ed6c95470cae72d8219caba0581b6110d06c&amp;width=100%25&amp;height=560&amp;lang=ru_RU&amp;scroll=false"></script>
+        </div>
+      </footer>
+
+    </div>
+
+  </div>
+  <script src="js/script.min.js"></script>
+
+</body>
+</html>
