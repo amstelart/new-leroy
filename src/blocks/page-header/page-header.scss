@@ -12,6 +12,10 @@
   background-repeat: no-repeat;
   color: #fff;
 
+  @media (max-width: ($screen-md - 1)) {
+    background-position: center center;
+  }
+
   &__inner {
     @include container;
     min-height: 445px;

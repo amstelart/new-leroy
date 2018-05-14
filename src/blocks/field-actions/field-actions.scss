@@ -34,4 +34,12 @@ $line-height:                 1.375em !default;
   @media (max-width: ($screen-sm - 1)) {
     flex-direction: column;
   }
+
+  .field-checkbox {
+    font-size: 10px;
+  }
+
+  .field-checkbox__name {
+    padding-left: 2.4em;
+  }
 }
