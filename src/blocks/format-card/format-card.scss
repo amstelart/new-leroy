@@ -6,7 +6,6 @@
 
   $block-name:                &; // #{$block-name}__element
 
-  border: 1px solid #f8f9fa;
   max-width: 800px;
   margin: auto;
   padding: 30px 70px;
@@ -76,9 +75,7 @@
   &__part {
 
     &:not(:last-child) {
-      border-bottom: 1px solid #f8f9fa;
-      padding-bottom: 30px;
-      margin-bottom: 30px;
+      margin-bottom: 15px;
     }
   }
 
